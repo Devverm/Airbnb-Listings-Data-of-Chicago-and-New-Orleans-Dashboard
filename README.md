@@ -32,7 +32,7 @@ Pricing Analysis
 
 Host Analysis
 
-This project demonstrates how EDA insights can be effectively translated into an interactive dashboard that supports data-driven decision-making, making it ideal for learning, portfolio presentation, and business intelligence use cases.
+###This project demonstrates how EDA insights can be effectively translated into an interactive dashboard that supports data-driven decision-making, making it ideal for learning, portfolio presentation, and business intelligence use cases.
 ---
 
 ## 📂 Repository Structure
