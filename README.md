@@ -1,4 +1,4 @@
-# Airbnb-Listings-Data-of-Chicago-New-Orleans
+# Airbnb Listings Data of Chicago and New Orleans Dashboard
 
 
 # 📊 Power BI Data Analysis Project
