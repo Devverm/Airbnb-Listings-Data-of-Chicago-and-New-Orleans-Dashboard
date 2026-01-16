@@ -1,121 +1,51 @@
 # Airbnb Listings Data of Chicago and New Orleans Dashboard
 
 
-# 📊 Power BI Data Analysis Project
+1. Project Title / Headline
+A concise, descriptive name for the dashboard. Example: ❄️ Snowy Analytics: Global Ski Resort Insights Dashboard A dynamic, interactive data visualization tool built to explore ski resort data worldwide—focusing on regional comparisons, resort attributes, terrain complexity, and skier suitability.
 
-## 🔍 Project Overview
+2. Short Description / Purpose
+1–2 sentences explaining what the dashboard does and why it exists.
 
-This repository contains a **detailed and well-structured Power BI (.pbix) report** created to analyze data and present meaningful insights through interactive dashboards and visuals. The project showcases end-to-end data analysis using **Power BI Desktop**, including data transformation, modeling, and visualization.
+Example: The Snowy Analytics Dashboard is a visually engaging and analytical Power BI report designed to help users explore and compare over 499 ski resorts across 38 countries and 5 continents. The dashboard focuses on highlighting major ski resort features like summer skiing availability, night skiing, lift types, and slope difficulty. This tool is intended for use by tourism analysts, winter sports enthusiasts, travel companies, and data-driven strategists who seek to understand trends and characteristics of ski resorts globally.
 
-This project is suitable for:
+3. Tech Stack
+List the key technologies used to build the dashboard.
 
-* 💼 GitHub portfolio projects
-* 🎓 Academic or training submissions
-* 📈 Business Intelligence demonstrations
-* 📚 Learning Power BI, DAX, and data visualization best practices
+Example: The dashboard was built using the following tools and technologies:
+• 📊 Power BI Desktop – Main data visualization platform used for report creation.
+• 📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.
+• 🧠 DAX (Data Analysis Expressions) – Used for calculated measures, dynamic visuals, and conditional logic.
+• 📝 Data Modeling – Relationships established among tables (resorts, snow, and data_dictionary) to enable cross-filtering and aggregation.
+• 📁 File Format – .pbix for development and .png for dashboard previews.
 
-## 📊 Description
+4. Data Source
+More info on where the data comes from and how it’s structured Example: Source: Ski-resort-stats.com & NASA Earth Observations.
 
-This project is part of The DataViz Challenge – Transforming EDA Projects to Dashboards, where an Exploratory Data Analysis (EDA) project is converted into an interactive and insightful Power BI dashboard.
+Data on ~500 ski resorts around the world, including details on their location, prices, slopes, lifts, and seasons, as well as a complementary table with the snow cover around the world for each month of 2022.
 
-The dashboard is built using Airbnb Listings Data from two major U.S. cities—Chicago and New Orleans—to perform a comparative analysis of Airbnb operations across two diverse urban environments. By leveraging Power BI’s visual analytics capabilities, the project highlights similarities, differences, and unique patterns in Airbnb’s market presence within these cities.
+5. Features / Highlights
+The best dashboard explanation format. • Business problem • Goal of the dashboard • Walk through of key visuals (briefly!) • Business impact & Insights
 
-The analysis focuses on key aspects such as neighborhood popularity, property and room type distribution, pricing behavior, availability trends, and host performance. The dashboard enables users to explore how pricing varies by location and property type, identify high-demand neighborhoods, and understand the relationship between reviews, hosts, and pricing.
+Example: • Business Problem The global ski tourism industry generates billions in revenue, yet travelers, tour operators, and analysts often lack an intuitive way to compare resorts across countries.
 
-To ensure meaningful visualizations, the dataset was first cleaned and transformed, addressing inconsistencies, standardizing neighborhood names, and creating derived categorical features suitable for analysis. The final dashboard organizes insights into four major sections:
+Key questions such as: Which regions offer the most family-friendly or expert-level skiing? Where is summer skiing available? What countries have the most well-equipped resorts? … are difficult to answer quickly with raw data.
 
-Overview of Airbnb
+• Goal of the Dashboard To deliver an interactive visual tool that: Enables users to explore ski resorts globally. Supports decisions such as vacation planning, regional marketing, or infrastructure investment. Uncovers trends in terrain, accessibility, and tourism capacity by region and resort.
 
-Property Analysis
+• Walkthrough of Key Visuals
 
-Pricing Analysis
+Key KPIs (Top Left) Total number of resorts: 499 Resorts with summer skiing: 29 Resorts with night skiing: 204 Child-friendly resorts: 495 Countries covered: 38 Continents represented: 5
+Continent Filter Panel An interactive slicer lets users filter all visuals by selected continents, such as Europe or Asia.
+Top Countries with Most Resorts (Bar Chart) Bar chart ranks countries like Austria, France, and the U.S. by number of ski resorts.
+Slopes by Resort (Line Chart) Displays the distribution of slope types (beginner, intermediate, expert, and total). Helps identify which resorts favor beginners vs. experts.
+Resorts by Skill Level (Dual Line Charts) Two line visuals side by side: one for resorts that cater to beginners, another for experts—allowing skill-level segmentation.
+Elevation Stats (Grouped Bar Chart) Compare the highest and lowest elevation points of resorts to understand terrain steepness and potential snow quality.
+Lift Types by Resort (Stacked Bar Chart) Stacked bar chart showing: Gondola lifts Chair lifts Surface lifts Total lifts This helps users gauge resort infrastructure and capacity.
+• Business Impact & Insights Marketing Optimization: Travel agencies can use this dashboard to identify key selling points for different demographics (e.g., child-friendly resorts or expert terrain). Strategic Expansion: Resort developers can spot underdeveloped regions with high potential. Vacation Planning: Tourists can plan trips based on slope availability, elevation, and terrain difficulty. Regional Analysis: Governments and tourism bodies can analyze competitiveness by region.
 
-Host Analysis
-
-###This project demonstrates how EDA insights can be effectively translated into an interactive dashboard that supports data-driven decision-making, making it ideal for learning, portfolio presentation, and business intelligence use cases.
----
-
-## 📂 Repository Structure
-
-```
-📦 Power-BI-Data-Analysis
- ├── 📊 Report.pbix        # Main Power BI report file
- ├── 📄 README.md          # Project documentation
-```
-
----
-
-## 🛠 Tools & Technologies Used
-
-* **Microsoft Power BI Desktop**
-* **Power Query (M Language)** – for data cleaning and transformation
-* **DAX (Data Analysis Expressions)** – for calculated measures and KPIs
-* **Data Visualization Techniques**
-* **Business Intelligence Concepts**
-
----
-
-## 💻 System Requirements
-
-To open and use this project, you need:
-
-* Windows Operating System
-* **Microsoft Power BI Desktop** (latest version recommended)
-
----
-
-## 🚀 How to Use the Project
-
-1. Clone or download this repository.
-2. Install **Microsoft Power BI Desktop** if not already installed.
-3. Open Power BI Desktop.
-4. Click **File → Open** and select the `.pbix` file.
-5. Explore the dashboards using slicers, filters, and interactive visuals.
-
----
-
-## 📈 Key Features
-
-* Interactive dashboards and reports
-* Dynamic filters and slicers
-* Clear KPIs and metrics
-* Clean and structured data model
-* User-friendly visual layout
-
----
-
-## 🔄 Data Source
-
-* The dataset is **embedded within the Power BI file** *(or connected to external sources if configured)*.
-* If external sources are used, users may need to update credentials or refresh connections.
-
----
-
-## 🧩 Customization & Extensions
-
-You can easily customize this project by:
-
-* Adding new visuals or report pages
-* Creating additional DAX measures
-* Replacing the dataset with your own data
-* Publishing the report to **Power BI Service** (Microsoft account required)
-
----
-
-## ⚠️ Notes
-
-* Ensure Power BI Desktop is updated to avoid compatibility issues.
-* Large datasets may affect performance depending on system resources.
-
----
-
-## 📄 License
-
-This project is provided for **educational and portfolio purposes**. You are free to use, modify, and extend it for learning or demonstration.
-
----
-
-## 🙌 Acknowledgments
+6. Screenshots / Demos
+Show what the dashboard looks like. - Alt text Example:
 
 Thanks to Microsoft Power BI documentation and the data visualization community for learning resources and inspiration.
 
