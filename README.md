@@ -14,6 +14,25 @@ This project is suitable for:
 * 📈 Business Intelligence demonstrations
 * 📚 Learning Power BI, DAX, and data visualization best practices
 
+## 📊 Description
+
+This project is part of The DataViz Challenge – Transforming EDA Projects to Dashboards, where an Exploratory Data Analysis (EDA) project is converted into an interactive and insightful Power BI dashboard.
+
+The dashboard is built using Airbnb Listings Data from two major U.S. cities—Chicago and New Orleans—to perform a comparative analysis of Airbnb operations across two diverse urban environments. By leveraging Power BI’s visual analytics capabilities, the project highlights similarities, differences, and unique patterns in Airbnb’s market presence within these cities.
+
+The analysis focuses on key aspects such as neighborhood popularity, property and room type distribution, pricing behavior, availability trends, and host performance. The dashboard enables users to explore how pricing varies by location and property type, identify high-demand neighborhoods, and understand the relationship between reviews, hosts, and pricing.
+
+To ensure meaningful visualizations, the dataset was first cleaned and transformed, addressing inconsistencies, standardizing neighborhood names, and creating derived categorical features suitable for analysis. The final dashboard organizes insights into four major sections:
+
+Overview of Airbnb
+
+Property Analysis
+
+Pricing Analysis
+
+Host Analysis
+
+This project demonstrates how EDA insights can be effectively translated into an interactive dashboard that supports data-driven decision-making, making it ideal for learning, portfolio presentation, and business intelligence use cases.
 ---
 
 ## 📂 Repository Structure
